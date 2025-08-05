@@ -1,0 +1,88 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+env/
+venv/
+ENV/
+*.env
+.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js-specific (in case parts of the project use Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+
+# Dependency directories
+.pipenv/
+Pipfile.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+.coverage
+coverage/
+*.cover
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+htmlcov/
+
+# Database files
+*.sqlite3
+*.db
+
+# Docker and container-related
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Project-specific
+# Ignore sensitive files like Postman environment files
+*.postman_environment.json
+# Ignore temporary test files
+*.jsonl
+*.out
+*.pid
