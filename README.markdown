@@ -14,11 +14,10 @@ The **Distributed Task Scheduler with REST API and Worker's Node** is a scalable
 ## Prerequisites
 - **Git**: For version control.
 - **Python 3.8+**: For running the API (assumed to be Python-based, e.g., Flask).
-- **Node.js** (optional): If worker nodes or parts of the system use JavaScript.
 - **Docker** (optional): For containerized deployment.
 - **Postman**: For testing the API using the provided `test.json` collection.
-- **Database**: A relational (e.g., PostgreSQL) or NoSQL (e.g., MongoDB) database, depending on implementation.
-- **Message Queue** (optional): For task distribution (e.g., RabbitMQ, Celery).
+- **Database**: A relational PostgreSQL
+- **Message Queue**: For task distribution Radis and Celery.
 
 ## Installation
 1. **Clone the Repository** (after pushing to GitHub):
@@ -55,7 +54,7 @@ The **Distributed Task Scheduler with REST API and Worker's Node** is a scalable
      ```
 6. **Run the API**:
    ```bash
-   python app.py  # Adjust based on your entry point
+   python app.py 
    ```
    The API will be available at `http://localhost:5000`.
 
